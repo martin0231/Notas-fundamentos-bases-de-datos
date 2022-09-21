@@ -205,7 +205,7 @@ Una **entidad** es algo similar a un objeto (programación orientada a objetos) 
 
 #### Atributos
 
-Los atributos se representan con óvalos, los que tienen multiples valores llevan dobles óvalos, también existen atributos compuestos, los atributos especiales son óvalos con linea punteada.
+Los atributos se representan con óvalos, los que tienen multiples valores llevan dobles óvalos, también existen atributos compuestos son los que tienen a su vez atributos ellos mismos y los atributos especiales son óvalos con linea punteada, estos son los que derivan de otros atributos.
 
 Los **atributos compuestos** son aquellos que tienen atributos ellos mismos.
 
