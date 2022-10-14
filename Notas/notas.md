@@ -1492,6 +1492,16 @@ HAVING post_quantity > 1
 ORDER BY post_month
 ;
 ```
+En postgres el **HAVING** se usa poniendo la funcion con el alias, con el ejemplo de arriba seria:
+
+```sql
+SELECT MONTH(fecha_publicacion) AS post_month, estatus, COUNT(*) AS post_quantity
+FROM posts
+GROUP BY estatus, post_month
+HAVING count(*) > 1
+ORDER BY post_month
+;
+```
 
 ### Clase 37 El interminable agujero de conejo (Nested queries)
 
